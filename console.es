@@ -3,14 +3,9 @@
 
 POST recipes/_search
 {
-  "query": {
-    "match": {
-      "phrase": {
-        "query" : "Salad"
-      }
-    }
-  }
+   "query": {
+      "match_all": {}
+   }
 }
-
 
 POST recipes/_search
