@@ -2,3 +2,9 @@
 An example program that scrapes data from AllRecipes.com and store in Elasticsearch.
 
 This code is the part of the blog post: [Getting started with Elasticsearch in Python](http://blog.adnansiddiqi.me/getting-started-with-elasticsearch-in-python/)
+
+
+
+
+Example:
+curl -X GET 'http://localhost:9200/recipes/_search'

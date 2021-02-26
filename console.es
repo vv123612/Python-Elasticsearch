@@ -8,4 +8,4 @@ POST recipes/_search
    }
 }
 
-POST recipes/_search
+GET recipes/_search
